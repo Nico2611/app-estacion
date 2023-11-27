@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Montserrat:wght@300&display=swap');
+
+body{
+	/*background: #E0EAFC;  /* fallback for old browsers */
+	/*background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: rgb(217,210,255);
+	background: linear-gradient(0deg, rgba(217,210,255,1) 0%, rgba(10,0,69,1) 100%);
+/*	background: no-repeat;*/
+	margin: 0;
+	height: 100%;
+	box-sizing: border-box;
+}
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+/*ESTACION*/
+.izquierda{
+	display: flex;
+	justify-content: flex-end;
+}
+.divider{
+    border-bottom: solid 1px;
+}
+a:link, a:visited, a:active {
+	text-decoration:none;
+	color: white;
+}
+
+.title{
+	color: white;
+    width: 100%;
+    border-bottom: solid 1px;
+}
+
+.centrar{
+	display:flex;
+	align-items:center;
+}
+
+#list-estacion-title h1{
+	font-size: 30px;
+	color: white;
+}
+
+#list-estacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1%;
+    padding: 50px 0;
+}
+
+.btn-estacion{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #363b97;
+/*	width: 30%;*/
+	width: 250px;
+	height: 30%;
+	border-radius: 20px;
+	margin-top:1%;
+	padding: 5px 0; 
+}
+
+.btn-estacion div{
+	width: 100%;
+    padding-bottom: 0px;
+/*    margin-bottom: 5px;*/
+	font-size: 10pt;
+}
+.btn-estacion h2{
+	margin: 5px;
+	font-size: 16px;
+}
+.btn-estacion h3{
+	margin: 5px;
+	font-size: 12px;
+}
+.btn-estacion i{
+	font-size: 17px;
+}
+
+.estacion-apodo{
+	display: flex;
+	justify-content: center;
+}
+
+.estacion-ubicacion{
+
+	padding-left:5px;
+}
+.estacion-visitas{
+	padding-right:20px;
+}
+
+
+/**/
+
+.container_detalle{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	height: auto;
+}
+
+#opciones{
+	display: flex;
+/*	justify-content: space-around;*/
+	gap:20px;
+	height: 100%;
+	flex-direction: column;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+#opciones button{
+	border:none;
+	width: auto;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.55);
+	border-radius: 10px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	font-size: 12pt;
+  	gap: 5px;
+  	cursor: pointer;
+	}
+
+#opciones button:hover{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+#opcionesbutton:active{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#contenido{
+	background-color: rgba(0, 0, 0, 0.55);
+	color: white;
+	border-radius: 10px;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 85%;
+
+}
+
+#btn-volver{
+	width: 30px;
+	height: 40px;
+	background-color: #2e15db;
+	border-radius: 10px 0 10px 0;
+	position: absolute;
+
+}
+
+#btn-volver a{
+  		width: 100%;
+  		height: 100%;
+		color: white;
+		text-decoration: none;
+		display: flex;
+	  	align-items: center;
+	  	justify-content: center;
+  		font-size: 25pt !important;
+  	}
+
+#btn-volver:hover{
+	background-color: #2000ff;
+}
+
+#panel-container{
+	padding:8px;
+	height: 250px;
+	width: 100%;
+}
+
+#grafico{
+	height: 350px;
+	width: 100%;
+}
+
+#panel-title{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title-info{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	gap: 5px;
+}
+
+#panel-container-temperatura, #panel-container-viento, #panel-container-fuego{
+	display: flex;
+}
+
+.panel-col{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.col-items{
+	width: 100%;
+}
+
+.item-title{
+	font-size: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.col-important{
+	display: flex;
+	justify-content: center;
+}
+
+.important-val-int{
+	font-size: 80px;
+}
+
+.important-val-unit{
+	  font-size: 36px;
+}
+
+.important-val-dec{
+	  font-size: 37px;
+}
+
+.panel-row{
+	display: flex;
+	justify-content: center;
+	gap:10px;
+}
+
+#temp-max, #temp-min, #sens-min, #sens-max{
+	text-align: center;
+}
+
+#sens-val-int{
+	font-size: 80px;
+}
+
+#item-viento{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+	font-size: 40px;
+	flex-wrap: wrap;
+}
+#item-viento i{
+	font-size: 40px !important;
+}
+
+
+.item-value{
+	text-align: center;
+}
+
+#grafico__container{
+	position: relative;
+	height: 50%;
+	width: auto;
+  	padding: 0.5em;
+  	top: 160px;
+}
