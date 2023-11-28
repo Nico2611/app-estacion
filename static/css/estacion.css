@@ -2,17 +2,20 @@
 
 body{
 	/*background: #E0EAFC;  /* fallback for old browsers */
-	/*background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
-	/*background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*	background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+/*	background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	background: rgb(217,210,255);
 	background: linear-gradient(0deg, rgba(217,210,255,1) 0%, rgba(10,0,69,1) 100%);
-/*	background: no-repeat;*/
-	margin: 0;
-	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: auto;
 	box-sizing: border-box;
+	margin: 0;
 }
 *{
 	font-family: 'Montserrat', sans-serif;
+
 }
 
 
@@ -280,4 +283,39 @@ a:link, a:visited, a:active {
 	width: auto;
   	padding: 0.5em;
   	top: 160px;
+}
+
+/*---LANDING---*/
+#landingWrapper{
+	margin: 50px 25px;
+	min-height: 580px;
+
+}
+#landingHeader{
+	color: white;
+}
+#landingBody{
+	color: white;
+	padding: 0 5px;
+}
+#landingBody a{
+	color: yellow!important;
+}
+/*---ERROR---*/
+#errorWrapper{
+/*	min-height: 660px;*/
+	min-height: 680px;
+
+}
+#errorContainer{
+	padding: 25px 50px;
+}
+#errorHeader{
+	color: white;
+	font-size: 20px;
+}
+#errorBody{
+	color: white;
+	font-size: 17px;
+	padding: 0 10px;
 }
