@@ -12,7 +12,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Panel</title>
-	<link rel="stylesheet" href="https://mattprofe.com.ar/alumno/3905/app-estacion/css/estacion.css">
+	<link rel="stylesheet" href="https://mattprofe.com.ar/alumno/3905/app-estacion/static/css/estacion.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" 
 />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js" defer></script>
